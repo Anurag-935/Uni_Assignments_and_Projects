@@ -1,0 +1,20 @@
+# Virtual Environment (tends to be massive and system-specific)
+venv/
+.venv/
+env/
+
+# Python cache files (auto-generated)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Heavy Audio Datasets (to prevent exceeding GitHub's 100MB file limit)
+data/
+*.wav
+
+# System/IDE specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
